@@ -1,6 +1,6 @@
 # AutoBuildIOSProject
 AutoBuildIOSProject
-
+详细文档地址：https://juejin.im/post/5ac2ddba6fb9a028cf32a5c3
 需求：
 1.客户（测试）自己上传logo或者将他们放到配置文件中，发布时自动获取。
 2.客户（测试）将appDisplayName放到配置文件中，发布时自动获取。
@@ -118,4 +118,5 @@ xcodebuild指令直接使用str拼接，直观，方便阅读。
 
 最后：
 cd到源码根目录，执行chmod 777 autoDo.py ; 然后就可以使用./autoDo.py执行脚本命令了。
+
 
