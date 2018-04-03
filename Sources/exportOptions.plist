@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- optional - bitcode -->
+	<key>compileBitcode</key>
+	<true/>
+
+    <!-- required - export type -->
+	<key>method</key>
+	<string>enterprise</string>
+
+	<!-- optional - sign type -->
+	<key>signingStyle</key>
+	<string>automatic</string>
+
+
+    <!-- optional - stripSwiftSymbols -->
+	<key>stripSwiftSymbols</key>
+	<true/>
+
+	<!-- optional - team id -->
+	<key>teamID</key>
+	<string>xxxxxxxxxxxxxxxx</string>
+
+	<!-- optional - thinning <xcode 9> -->
+	<key>thinning</key>
+	<string>&lt;none&gt;</string>
+
+</dict>
+</plist>
