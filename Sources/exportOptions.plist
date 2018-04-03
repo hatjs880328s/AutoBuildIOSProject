@@ -6,7 +6,7 @@
 	<key>compileBitcode</key>
 	<true/>
 
-    <!-- required - export type -->
+    <!-- required - export  type -->
 	<key>method</key>
 	<string>enterprise</string>
 

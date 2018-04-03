@@ -10,7 +10,7 @@ from AutoBuildCla import *
 
 
 IILog().successPrint('\n'
-      '### Use python auto build & upload project \n'
+      '### Use python auto build & ,upload project \n'
       '### First build the ipa file,make sure the source folder has no ipa file\n'
       '### If exist deleate it(eg: icloud.ipa)\n'
       '### Second auto build the ipa & upload it \n'

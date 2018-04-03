@@ -11,7 +11,7 @@ class DateFormat(object):
         now = datetime.datetime.now()
         dateStr = now.strftime('%Y-%m-%d %H:%M:%S')
         print(dateStr)
-        archivePath = '/Users/shanwz/Desktop/' + '/BuildFile/' + dateStr + '/'
+        archivePath = '//Users/shanwz/Desktop/' + '/BuildFile/' + dateStr + '/'
         isExists = os.path.exists(archivePath)
         if isExists:
             pass

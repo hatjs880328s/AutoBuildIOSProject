@@ -8,7 +8,7 @@ import datetime
 
 '''
     ==============================
-    BUILD FUNCTIONS :::
+    BUILD FUNCTIONS ::
     0: CREATE IPABUILD FOLDER 
     1: GET SOURCE FILE PATH 
     2: RUN BUILD & EXPORT ORDER

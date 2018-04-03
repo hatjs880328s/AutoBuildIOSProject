@@ -8,7 +8,7 @@ from IILog import *
 
 '''
     First get All pic's url
-    Second download all of them 
+    Second download all of them .
     Third save in directly folder
     #reference:
     <download pics>

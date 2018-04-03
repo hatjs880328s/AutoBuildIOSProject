@@ -13,7 +13,7 @@ class IILog(object):
     def __init__(self):
         pass
 
-    # green character & white bg
+    # green character & white bg.
     def successPrint(self,infos):
         print('\033[0;32m' + infos)
 

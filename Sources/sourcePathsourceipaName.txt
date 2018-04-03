@@ -19,7 +19,7 @@ EmailReces = ssss823354@qq.com,xxxx5552@qq.com
 
 #notice: it’s pic remote server address
 
-ApiRefurls = http://v.juhe.csxxxxxxxxxxxxx
+ApiRefurls = http://v.juhe.csxxxxxxxxxxxxxc
 
 #notice: logo path （local path）
 

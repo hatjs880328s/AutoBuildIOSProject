@@ -7,7 +7,7 @@ import os
 from IILog import *
 
 '''
-    The file should change the APP name with network
+    The file should change. the APP name with network
     User submit the name to remote server
     We get the app name from the remote server
 '''
