@@ -9,7 +9,61 @@
 
 SourcePath = /Users/shanwz/Desktop/sourceGit2
 
-#notice: your app xx.ipa name [doooooooooon’t forget the ‘/‘]
+#notice: your app xx.ipa name [doooooooooon’t forget the ‘/‘]#'Use python auto build & upload project \n'
+#'First build the ipa file,make sure the source folder has no ipa file\n'
+#'If exist deleate it(eg: icloud.ipa)\n'
+#'Second auto build the ipa & upload it \n'
+#'Ur job just wait\n'
+#'Ok,go-\n\n'
+
+#notice: your project path [last character isn’t ‘/‘]
+
+SourcePath = /Users/shanwz/Desktop/sourceGit2
+
+#notice: your app xx.ipa name [doooooooooon’t forget the ‘/‘][scheme name , u can use xcodebuild -list order confirm if u don't know it]
+
+SourceName = /source.ipa
+
+#notice: emailAdd joined by [,(en) not ，（chinese）]
+
+EmailReces = 2438823354@qq.com,shanwzh@inspur.com,451145552@qq.com
+
+#notice: it’s pic remote server address
+
+ApiRefurls = http://v.juhe.cn/historyWeather/province?key=facb64f8f45b41e23c6df2446e7c5a11
+
+#notice: logo path （local path）
+
+LogoRepath = /Users/shanwz/Desktop/sourceGit2/source/Assets.xcassets/AppIcon.appiconset
+
+#notice: app name request url
+
+AppNameURL = http://v.juhe.cn/historyWeather/province?key=facb64f8f45b41e23c6df2446e7c5a11
+
+#notice: local app name path (en,zh-sim,zh-)
+
+AppnameDis = /Users/shanwz/Desktop/sourceGit2/source/Info.plist
+AppnameEng = /Users/shanwz/Desktop/sourceGit2/source/en.lproj/InfoPlist.strings
+AppnameZHS = /Users/shanwz/Desktop/sourceGit2/source/zh-Hans.lproj/InfoPlist.strings
+AppnameZHT = /Users/shanwz/Desktop/sourceGit2/source/zh-Hant.lproj/InfoPlist.strings
+
+#
+#
+# AUTO SIGN & AUTO BUILD
+#
+#
+
+#notice: app workspace name
+
+WorkSpaceN = source.xcworkspace
+
+#notice: ipa name [scheme name , u can use xcodebuild -list order confirm if u don't know it]
+
+IPAFileNam = source
+
+#notice: export ipa file path
+
+ExportFpat = /Users/shanwz/Desktop/AutoBuildScript/PythonFirstProject/venv/exportOptions.plist
 
 SourceName = /source.ipa
 
@@ -45,7 +99,61 @@ AppnameZHT = /Users/shanwz/Desktop/sourceGit2/source/zh-Hant.lproj/InfoPlist.str
 
 WorkSpaceN = source.xcworkspace
 
-#notice: ipa name
+#notice: ipa name #'Use python auto build & upload project \n'
+#'First build the ipa file,make sure the source folder has no ipa file\n'
+#'If exist deleate it(eg: icloud.ipa)\n'
+#'Second auto build the ipa & upload it \n'
+#'Ur job just wait\n'
+#'Ok,go-\n\n'
+
+#notice: your project path [last character isn’t ‘/‘]
+
+SourcePath = /Users/shanwz/Desktop/sourceGit2
+
+#notice: your app xx.ipa name [doooooooooon’t forget the ‘/‘][scheme name , u can use xcodebuild -list order confirm if u don't know it]
+
+SourceName = /source.ipa
+
+#notice: emailAdd joined by [,(en) not ，（chinese）]
+
+EmailReces = 2438823354@qq.com,shanwzh@inspur.com,451145552@qq.com
+
+#notice: it’s pic remote server address
+
+ApiRefurls = http://v.juhe.cn/historyWeather/province?key=facb64f8f45b41e23c6df2446e7c5a11
+
+#notice: logo path （local path）
+
+LogoRepath = /Users/shanwz/Desktop/sourceGit2/source/Assets.xcassets/AppIcon.appiconset
+
+#notice: app name request url
+
+AppNameURL = http://v.juhe.cn/historyWeather/province?key=facb64f8f45b41e23c6df2446e7c5a11
+
+#notice: local app name path (en,zh-sim,zh-)
+
+AppnameDis = /Users/shanwz/Desktop/sourceGit2/source/Info.plist
+AppnameEng = /Users/shanwz/Desktop/sourceGit2/source/en.lproj/InfoPlist.strings
+AppnameZHS = /Users/shanwz/Desktop/sourceGit2/source/zh-Hans.lproj/InfoPlist.strings
+AppnameZHT = /Users/shanwz/Desktop/sourceGit2/source/zh-Hant.lproj/InfoPlist.strings
+
+#
+#
+# AUTO SIGN & AUTO BUILD
+#
+#
+
+#notice: app workspace name
+
+WorkSpaceN = source.xcworkspace
+
+#notice: ipa name [scheme name , u can use xcodebuild -list order confirm if u don't know it]
+
+IPAFileNam = source
+
+#notice: export ipa file path
+
+ExportFpat = /Users/shanwz/Desktop/AutoBuildScript/PythonFirstProject/venv/exportOptions.plist
 
 IPAFileNam = source
 
