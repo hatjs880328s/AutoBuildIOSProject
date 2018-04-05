@@ -66,7 +66,7 @@ AutoBuildIOSProject
 >> 最后：
 cd到源码根目录，执行chmod 777 autoDo.py ; 然后就可以使用./autoDo.py执行脚本命令了。
 
-### 源码会在稍后放出。
+### ：）
 
 
 
