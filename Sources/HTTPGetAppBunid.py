@@ -20,7 +20,7 @@ from IILog import *
 
 IILog().successPrint('### Start change bundle ID')
 
-bunble_identifier = 'com.Inspur.sourceTxt7718'
+bunble_identifier = 'com.sss.sourceTxt7718'
 
 # get the bundleID file
 def getBundlePathFromConfigFile():
@@ -80,7 +80,6 @@ def changePRODUCT_BUNDLE_IDENTIFIERInpbxFile(localurl,replacedStr):
     newAllLine = []
     for eachLine in alllines:
         if changeCount < 2:
-            # PRODUCT_BUNDLE_IDENTIFIER = com.Inspur.sourceTxt7719;
             if eachLine.__contains__('PRODUCT_BUNDLE_IDENTIFIER'):
                 newline = '				PRODUCT_BUNDLE_IDENTIFIER = ' + replacedStr + ';\n'
                 newAllLine.append(newline)
