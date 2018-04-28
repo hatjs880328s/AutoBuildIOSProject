@@ -2,6 +2,7 @@
 AutoBuildIOSProject
 
 ## 需求：
+#### 0.客户（测试）自动更改bundleid
 #### 1.客户（测试）自己上传logo或者将他们放到配置文件中，发布时自动获取。
 #### 2.客户（测试）将appDisplayName放到配置文件中，发布时自动获取。
 #### 3.自动签名（auto sign),导出archive文件和ipa文件。
