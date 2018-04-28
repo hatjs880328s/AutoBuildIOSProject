@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-
+# -*- coding:UTF-8 -*-
 
 import subprocess
 from IILog import *
@@ -8,7 +8,7 @@ import datetime
 
 '''
     ==============================
-    BUILD FUNCTIONS ::
+    BUILD FUNCTIONS :::
     0: CREATE IPABUILD FOLDER 
     1: GET SOURCE FILE PATH 
     2: RUN BUILD & EXPORT ORDER
@@ -63,7 +63,7 @@ class AutoBuildCla(object):
         # ipa build
         buildpath = 'xcodebuild archive -workspace ' +  sourceName + ' -scheme ' + ipaFileName + '' \
                     ' -configuration Release ' \
-                    '-archivePath ' + archivePath + ipaFileName + ' -allowProvisioningUpdates';
+                    '-archivePath ' + archivePath + ipaFileName + ' -allowProvisioningUpdates -allowProvisioningDeviceRegistration';
         IILog().successPrint('### Build start - build order is :')
         IILog().successPrint(buildpath)
         build = subprocess.Popen(buildpath, shell=True, cwd=sourcePath)

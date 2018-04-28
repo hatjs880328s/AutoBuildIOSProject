@@ -7,7 +7,7 @@ import os
 from IILog import *
 
 '''
-    The file should change. the APP name with network
+    The file should change the APP name with network
     User submit the name to remote server
     We get the app name from the remote server
 '''
@@ -69,7 +69,7 @@ def changeCharacter(localurl,replacedStr):
 
 # use return dic change displayname
 def changeNameWithDic(dicValue,obj):
-    replaced = {'AppnameEng': 'come', 'AppnameZHS': 'xxx', 'AppnameZHT': 'xxxxx'}
+    replaced = {'AppnameEng': 'come', 'AppnameZHS': '醉了', 'AppnameZHT': '呵呵1'}
     changeCharacter(obj.appnameEnpath, replaced['AppnameEng'])
     changeCharacter(obj.appnameHansim, replaced['AppnameZHS'])
     changeCharacter(obj.appnameHantra, replaced['AppnameZHT'])

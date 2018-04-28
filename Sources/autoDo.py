@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+#coding:utf-8
+
 
 import subprocess
 import smtplib
@@ -10,13 +12,19 @@ from AutoBuildCla import *
 
 
 IILog().successPrint('\n'
-      '### Use python auto build & ,upload project \n'
-      '### First build the ipa file,make sure the source folder has no ipa file\n'
-      '### If exist deleate it(eg: icloud.ipa)\n'
-      '### Second auto build the ipa & upload it \n'
+      '### Use python auto build & upload project \n'
+      '### 1.Pull lasted version from git T\n'
+      '### 2.Change bundle id [not easy.  :D -headache- :D]\n'
+      '### 3.Change app names \n'
+      '### 4.Change Logo pics \n'
+      '### 5.Build & archive & exportArchive \n'
+      '### 6.Upload the ipa file to fir.im | app-store \n'
+      '### 7.Send E-MAIL to somebody \n'
       '### Ur job just wait\n'
       '### Ok,go-\n\n')
 
+import PullGitFiles
+import HTTPGetAppBunid
 import HTTPGetImage
 import HTTPGetAppname
 
@@ -91,7 +99,7 @@ class uploadIns(object):
 
 # path is -----  sourcePath + sourceName
 def uploadIPAFile(path,redoTime):
-    uploadInstanceIn = uploadIns()
+    uploadInstanceIn = uploadIns()  
     try:
         upload = subprocess.Popen(['fir', 'publish', path], stdout=subprocess.PIPE)
         (stdout_value) = upload.communicate()
@@ -137,19 +145,19 @@ def isSuccessFunc(ifSuccess):
 
 
 # send E-mail to Observer
-emailSender = 'xxxx45552@qq.com'
+emailSender = '(InspurInter-iOSTeam-Noah Shan)451145552@qq.com'
 emailContext = 'Auto build & upload ipa ' + isSuccessFunc(uploadInstance.ifSuccess) + ' \n \n \n ' \
                + '\n\nResultInfo:' + uploadInstance.successUploadInfo + '\n\n That\'s all.'
 # mail instance
 emailInstance = MIMEText(emailContext, 'plain', 'utf-8')
-emailInstance['From'] = Header('iOSTeam', 'utf-8')
-emailInstance['To'] = Header('observer', 'utf-8')
+emailInstance['From'] = Header('InspurInter-iOSTeam', 'utf-8')
+emailInstance['To'] = Header('InspurInter-observer', 'utf-8')
 emailInstance['Subject'] = Header('iOS Upload IPA ' + isSuccessFunc(uploadInstance.ifSuccess), 'utf-8')
 # smtp-server instance
 mail_host = 'smtp.qq.com'
 mail_port = '465'
-mail_user = 'xxxx5552@qq.com'
-mail_pass = 'xxxxxxxxxxx'
+mail_user = '451145552@qq.com'
+mail_pass = 'ovfcgwlppnvebicc'
 try:
     smtpOBJ = smtplib.SMTP_SSL(mail_host, mail_port)
     smtpOBJ.login(mail_user, mail_pass)

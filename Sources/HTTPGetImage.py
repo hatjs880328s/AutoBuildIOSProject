@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-
+# -*- coding:UTF-8 -*-
 import urllib2
 import time
 import json
@@ -8,11 +8,11 @@ from IILog import *
 
 '''
     First get All pic's url
-    Second download all of them .
+    Second download all of them 
     Third save in directly folder
-    #reference:
-    <download pics>
-    <read api     >
+    #reference::::
+    <download pics>https://blog.csdn.net/j_c_weaton/article/details/53895149
+    <read api     >https://blog.csdn.net/sunshinelyc/article/details/52755044
 '''
 
 IILog().successPrint('####### Start - HTTPGetImageModule---')
@@ -20,9 +20,9 @@ IILog().successPrint('####### Start - HTTPGetImageModule---')
 def loadALLPicsURL(url):
     picDic = {}
     # YSJ PIC
-    picDefaulturl = 'http://chuxxxxcxxxx220.png'
+    picDefaulturl = 'http://i2.bvimg.com/642337/51d104edb0802d52.png'
     # CLOUD PIC
-    picLandurl = 'http://chuaxxxxxxxxxxxx20.png'
+    picLandurl = 'http://i2.bvimg.com/642337/cd1c6c175210b5aa.png'
 
     response = urllib2.urlopen(url)
     jsondata = json.loads(response.read())
