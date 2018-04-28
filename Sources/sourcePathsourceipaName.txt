@@ -5,51 +5,56 @@
 #'Ur job just wait\n'
 #'Ok,go-\n\n'
 
-#notice: your project path [last character isn’t ‘/‘]
+#notice: 项目路径最后不要带 /
 
 SourcePath = /Users/shanwz/Desktop/sourceGit2
 
-#notice: your app xx.ipa name [doooooooooon’t forget the ‘/‘][scheme name , u can use xcodebuild -list order confirm if u don't know it]
+#notice: 项目工程文件pbxproj路径
+
+PbxproPath = /Users/shanwz/Desktop/sourceGit2/source.xcodeproj/project.pbxproj
+
+#notice: 项目bundleid
+
+BundleIden = com.insupr.sourceTxt45
+
+#notice: 项目bundleid文件路径
+
+BundlePath = /Users/shanwz/Desktop/sourceGit2/source/Info.plist
+
+#notice: 生成的IPA文件名字前面带 /
 
 SourceName = /source.ipa
 
-#notice: emailAdd joined by [,(en) not ，（chinese）]
+#notice: 结果接受邮箱地址使用,分隔开：是英文的,
 
-EmailReces = xxx354@qq.com,xxxxx45552@qq.com
+EmailReces = 451145552@qq.com
 
-#notice: it’s pic remote server address
+#notice: 图片服务器接口
 
 ApiRefurls = http://v.juhe.cn/historyWeather/province?key=facb64f8f45b41e23c6df2446e7c5a11
 
-#notice: logo path （local path）
+#notice: 项目logo路径
 
 LogoRepath = /Users/shanwz/Desktop/sourceGit2/source/Assets.xcassets/AppIcon.appiconset
 
-#notice: app name request url
+#notice: app名字服务器接口
 
 AppNameURL = http://v.juhe.cn/historyWeather/province?key=facb64f8f45b41e23c6df2446e7c5a11
 
-#notice: local app name path (en,zh-sim,zh-)
+#notice: 本地APP国际化文件路径（三个）
 
-AppnameDis = /Users/shanwz/Desktop/sourceGit2/source/Info.plist
-AppnameEng = /Users/shanwz/Desktop/sourceGit2/source/en.lproj/InfoPlist.strings
-AppnameZHS = /Users/shanwz/Desktop/sourceGit2/source/zh-Hans.lproj/InfoPlist.strings
-AppnameZHT = /Users/shanwz/Desktop/sourceGit2/source/zh-Hant.lproj/InfoPlist.strings
+AppnameEng = /Users/shanwz/Desktop/sourceGit/source/en.lproj/InfoPlist.strings
+AppnameZHS = /Users/shanwz/Desktop/sourceGit/source/zh-Hans.lproj/InfoPlist.strings
+AppnameZHT = /Users/shanwz/Desktop/sourceGit/source/zh-Hant.lproj/InfoPlist.strings
 
-#
-#
-# AUTO SIGN & AUTO BUILD
-#
-#
-
-#notice: app workspace name
+#notice: 项目xcworkspace文件名字
 
 WorkSpaceN = source.xcworkspace
 
-#notice: ipa name [scheme name , u can use xcodebuild -list order confirm if u don't know it]
+#notice: 项目target名字 eg. CloudPlus_dev
 
 IPAFileNam = source
 
-#notice: export ipa file path
+#notice: 导出ipa指导文件路径
 
-ExportFpat = /Users/shanwz/Desktop/AutoBuildScript/PythonFirstProject/venv/exportOptions.plist
+ExportFpat = /Users/shanwz/Desktop/AutoBuildScriptInspur/iosAutoBuildPY/AutoBuildPy/exportOptions.plist
