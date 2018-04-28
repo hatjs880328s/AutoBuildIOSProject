@@ -15,7 +15,7 @@ PbxproPath = /Users/shanwz/Desktop/sourceGit2/source.xcodeproj/project.pbxproj
 
 #notice: 项目bundleid
 
-BundleIden = com.insupr.sourceTxt45
+BundleIden = com.sss.sourceTxt45
 
 #notice: 项目bundleid文件路径
 
