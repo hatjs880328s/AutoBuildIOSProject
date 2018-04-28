@@ -157,7 +157,7 @@ emailInstance['Subject'] = Header('iOS Upload IPA ' + isSuccessFunc(uploadInstan
 mail_host = 'smtp.qq.com'
 mail_port = '465'
 mail_user = '451145552@qq.com'
-mail_pass = 'ovfcgwlppnvebicc'
+mail_pass = 'ovfxxxxxxxxxxx'
 try:
     smtpOBJ = smtplib.SMTP_SSL(mail_host, mail_port)
     smtpOBJ.login(mail_user, mail_pass)
